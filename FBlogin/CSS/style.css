@@ -49,7 +49,7 @@ footer {
 }
 
 .col-logo h2 {
-    font: 26px;
+    font-size: 26px; /* Changed from font to font-size */
     font-weight: 400;
     padding: 0 30px;
     line-height: 32px;
@@ -65,7 +65,8 @@ footer {
     max-width: 400px;
 }
 
-.col-form .form-container input, .col-form .form-container .btn-login {
+.col-form .form-container input,
+.col-form .form-container .btn-login {
     width: 100%;
     margin: 5px 0;
     height: 45px;
@@ -173,9 +174,4 @@ footer ol li a {
 }
 
 footer ol li a:hover {
-    text-decoration: underline;
-}
-
-footer small {
-    font-size: 11px;
-}
+    text-decoration:
